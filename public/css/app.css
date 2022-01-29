@@ -1,0 +1,12 @@
+#divided {
+  display: flex;
+}
+
+#tutorImage,
+#pattern {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+

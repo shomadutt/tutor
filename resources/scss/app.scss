@@ -1,0 +1,15 @@
+@mixin centre() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#divided {
+    display: flex;
+}
+
+#tutorImage,
+#pattern {
+    @include centre();
+    flex: 1;
+}
