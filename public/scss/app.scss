@@ -4,12 +4,14 @@
     align-items: center;
 }
 
-#divided {
-    display: flex;
+#logo {
+    width: 40px;
 }
 
-#tutorImage,
-#pattern {
+#tutorImageDiv {
     @include centre();
-    flex: 1;
+}
+
+#tutorImage {
+    border-radius: 50%;
 }
