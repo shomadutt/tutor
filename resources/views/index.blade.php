@@ -40,7 +40,7 @@
 
     <div class="container-fluid" id="tutorImageDiv">
 
-        <img src="{{ URL('images/t1.jpg')}}" id="tutorImage" class="img-fluid" alt="tutor">
+        <img src="{{ URL('images/tutor.jpg')}}" id="tutorImage" class="img-fluid" alt="tutor">
 
     </div>
 
