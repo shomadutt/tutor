@@ -36,7 +36,7 @@
         </div>
     </nav>
 
-    <div class="containter-fluid">
+    <div class="container-fluid">
 
         <div class="row intro">
             <div class="col introPosition">
@@ -49,15 +49,16 @@
                     Maths Tutor
                 </p>
             </div>
+
+
+
+            <div class=" col introPosition">
+
+                <img src="{{ URL('images/tutor.jpg')}}" id="tutorImg" class="img-fluid" alt="tutor">
+
+            </div>
         </div>
-
     </div>
-    <div class="col introPosition">
-
-        <img src="{{ URL('images/tutor.jpg')}}" id="tutorImg" class="img-fluid" alt="tutor">
-
-    </div>
-
     </div>
     </div>
 
@@ -123,7 +124,7 @@
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </div>
-    <div class=" container-fluid footer-basic">
+    <div class=" container-fluid">
         <footer>
             <p id="copyright">mathstutorchris.com © 2022</p>
         </footer>

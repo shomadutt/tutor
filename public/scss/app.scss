@@ -4,10 +4,6 @@
     align-items: center;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 body {
     margin: 0;
     padding: 0;
@@ -25,6 +21,10 @@ body {
 .introPosition {
     margin-top: 10%;
     text-align: center;
+}
+
+.row {
+    flex-direction: column;
 }
 
 #tutorIntro {
@@ -51,6 +51,11 @@ body {
 
 .heading {
     font-weight: bold;
+    text-align: center;
+}
+
+#contactDiv {
+    height: 60vh;
 }
 
 #copyright {
@@ -58,11 +63,99 @@ body {
 }
 
 footer {
-    margin-top: 20%;
+    margin-top: 50%;
+    height: 40vh;
 }
 
-@media only screen and (min-width: 720px) {
-    #introAndImage {
+// Portrait
+@media only screen and (min-width: 390px) and (orientation: portrait) {
+    #contactDiv {
+        height: 50vh;
+    }
+    footer {
+        height: 50vh;
+    }
+}
+
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+    #contactDiv {
+        height: 30vh;
+    }
+    footer {
+        height: 60vh;
+    }
+}
+
+@media only screen and (min-width: 820px) and (orientation: portrait) {
+    #contactDiv {
+        height: 30vh;
+    }
+    footer {
+        height: 65vh;
+    }
+}
+
+@media only screen and (min-width: 912px) and (orientation: portrait) {
+    #contactDiv {
+        height: 20vh;
+    }
+    footer {
+        height: 70vh;
+    }
+}
+
+// Landscape
+@media only screen and (min-width: 653px) and (orientation: landscape) {
+    #contactDiv {
+        height: 100vh;
+    }
+    footer {
+        height: 30vh;
+    }
+}
+
+@media only screen and (min-width: 667px) and (orientation: landscape) {
+    #contactDiv {
+        height: 90vh;
+    }
+    footer {
+        height: 30vh;
+    }
+}
+
+@media only screen and (min-width: 720px) and (orientation: landscape) {
+    .row {
         flex-direction: row;
+    }
+    #tutorIntro {
+        margin-top: 10%;
+    }
+    .navbar {
+        padding-right: 2% !important;
+        padding-left: 2% !important;
+    }
+    #contactDiv {
+        height: 70vh;
+    }
+    footer {
+        height: 20vh;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (orientation: landscape) {
+    #contactDiv {
+        height: 40vh;
+    }
+    footer {
+        height: 50vh;
+    }
+}
+
+@media only screen and (min-width: 1180px) and (orientation: landscape) {
+    #contactDiv {
+        height: 30vh;
+    }
+    footer {
+        height: 50vh;
     }
 }
