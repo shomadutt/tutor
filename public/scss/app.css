@@ -1,20 +1,67 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f3edd1;
+}
+
+.navbar {
+  background-color: beige;
+}
+
 #logo {
   width: 40px;
 }
 
-#tutorImageDiv {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.introPosition {
+  margin-top: 10%;
+  text-align: center;
 }
 
-#tutorImage {
+#tutorIntro {
+  font-size: 170%;
+  font-weight: 500;
+}
+
+#mathsIntro {
+  font-size: 130%;
+  font-weight: 400;
+}
+
+#tutorImg {
   border-radius: 50%;
+}
+
+#tutorDiv,
+#testimonialDiv,
+#contactDiv {
+  margin-top: 20%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.heading {
+  font-weight: bold;
+}
+
+#copyright {
+  text-align: center;
+}
+
+footer {
+  margin-top: 20%;
+}
+
+@media only screen and (min-width: 720px) {
+  #introAndImage {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
 /*# sourceMappingURL=app.css.map */
