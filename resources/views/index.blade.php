@@ -36,10 +36,10 @@
         </div>
     </nav>
 
-    <div class="container-fluid">
+    <div class="container-fluid" id="introDiv">
 
         <div class="row intro">
-            <div class="col introPosition">
+            <div class="col introPosition px-0 py-0" id="introText">
                 <p id="tutorIntro">
                     Christopher Phan
                 </p>
@@ -52,19 +52,15 @@
 
 
 
-            <div class=" col introPosition">
+            <div class=" col introPosition px-0" id="tutorDiv">
 
-                <img src="{{ URL('images/tutor.jpg')}}" id="tutorImg" class="img-fluid" alt="tutor">
+                <img src="{{ URL('images/t.jpg')}}" id="tutorImg" class="img-fluid" alt="tutor">
 
             </div>
         </div>
     </div>
-    </div>
-    </div>
 
-
-
-    <div class="container-fluid" id="tutorDiv">
+    <div class="container-fluid py-0" id="aboutDiv">
         <p class="heading" id="about">
             About Me
         </p>
@@ -80,13 +76,26 @@
         <p>
             After graduating with a Mathematics degree from Oxford University, I went on to complete my
             Teach First qualification at Berkshire Primary School, specialising in teaching Maths to Years 5 and 6.
-            I was selected as part of Teach First’s Associate Tutor team, delivering professional development sessions
+            I was selected as part of Teach First's Associate Tutor team, delivering professional development sessions
             to Teach First participants. I am a highly experienced 7+, 11+, 13+, GCSE, A-Level and university entrance
             tutor.
         </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ipsum lorem, dignissim eget est vel, feugiat
+            iaculis magna. Nulla hendrerit congue turpis, sit amet tristique quam consectetur at. Pellentesque sagittis
+            molestie dolor, vitae dictum lectus posuere non. Nam cursus commodo euismod. Donec vel semper justo.
+            Suspendisse nec velit venenatis, commodo mauris luctus, dignissim nisi. Suspendisse eu mauris dui.
+        </p>
+        <p>
+            Donec et pellentesque erat, at viverra justo. Mauris vel tristique eros, at interdum tortor. Ut at rutrum ante.
+            Morbi commodo aliquet nisi vitae ornare. Cras scelerisque tincidunt erat sed tempor. Sed lacus felis, sodales a
+            pretium vel, venenatis sit amet nunc. Vivamus id consectetur quam. Nam pulvinar, ipsum ornare lacinia cursus,
+            massa arcu vehicula dui, efficitur egestas risus tortor id tortor. Integer est diam, tempor non fermentum vitae,
+            accumsan sed quam. Aliquam commodo congue urna, a porta risus porttitor sed.
+        </p>
     </div>
 
-    <div class="container-fluid" id="testimonialDiv">
+    <div class="container-fluid py-0" id="testimonialDiv">
         <p class="heading" id="testimonials">
             Testimonials
         </p>
@@ -101,30 +110,45 @@
             The feedback I'm getting from Tracy is that he has massively helped her with her Maths."
             — Terry, Tracy's father
         </p>
+        <p>
+            Nunc quis sapien et sem euismod vulputate. Etiam fermentum turpis quis sapien vestibulum scelerisque. Donec laoreet
+            vitae lectus et aliquet. Maecenas odio nulla, varius quis sapien quis, varius congue erat. Etiam porttitor turpis sem,
+            a lobortis leo aliquet in. Phasellus vitae sapien et elit scelerisque dignissim. Nulla facilisi. Sed rhoncus nisi ac
+            magna cursus, vitae blandit justo laoreet. Quisque commodo tristique laoreet. Proin aliquet vestibulum lacus, quis sagittis
+            nisi dictum ut. Suspendisse ac velit augue. Mauris elementum consequat consectetur. Duis interdum neque nec vestibulum varius.
+            Donec consequat id odio vel aliquet.
+        </p>
+        <p>
+            Quisque aliquet est ut malesuada egestas. Etiam ut leo pellentesque, lobortis ante maximus, placerat nulla. Quisque ornare
+            vulputate libero, non vehicula felis mattis nec. Curabitur bibendum sapien sit amet sagittis maximus. Vestibulum ante ipsum
+            primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec a massa ultricies, condimentum nunc ac, fermentum dui.
+            Suspendisse gravida lobortis pulvinar. Quisque a dui suscipit, interdum orci sit amet, tincidunt tellus. Quisque euismod neque
+            ut scelerisque convallis. Quisque et viverra turpis.
+        </p>
     </div>
-    <div class="contianer-fluid" id="contactDiv">
+    <div class="contianer-fluid py-0" id="contactDiv">
         <p class="heading" id="contact">
             Contact Me
         </p>
         <form>
             <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Name</label>
-                <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <label for="name" class="form-label">Name</label>
+                <input type="name" class="form-control" id="name" />
 
             </div>
             <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" />
             </div>
 
             <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn" id="submitButton">Submit</button>
         </form>
     </div>
-    <div class=" container-fluid">
+    <div class="container-fluid" id="footerDiv">
         <footer>
             <p id="copyright">mathstutorchris.com © 2022</p>
         </footer>
