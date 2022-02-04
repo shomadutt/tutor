@@ -15,6 +15,7 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="{{ URL('images/logo.png')}}" id="logo" class="img-fluid" alt="logo">
+                Christopher Phan
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -36,57 +37,54 @@
         </div>
     </nav>
 
+    <div class="container-fluid px-0" id="landingDiv">
+
+        <img src="{{ URL('images/maths.jpg')}}" alt="maths image" id="maths">
+
+    </div>
+
     <div class="container-fluid" id="introDiv">
 
         <div class="row intro">
+            <p class="heading" id="about">
+                About Me
+            </p>
             <div class="col introPosition px-0 py-0" id="introText">
+
                 <p id="tutorIntro">
-                    Christopher Phan
-                </p>
 
-
-                <p id="mathsIntro">
-                    Maths Tutor
+                    Hi, I'm Christopher Phan, and I teach Maths. I've been teaching for the last 25 years.
+                    I'm based in North London, but I can easily travel to any part. I have extensive experience
+                    teaching in some of the UK's top schools and offer unparalleled
+                    insight into and each and every stage of a student's development.
                 </p>
             </div>
 
-
-
             <div class=" col introPosition px-0" id="tutorDiv">
 
-                <img src="{{ URL('images/t.jpg')}}" id="tutorImg" class="img-fluid" alt="tutor">
+                <img src="{{ URL('images/tutor.jpg')}}" id="tutorImg" class="img-fluid" alt="tutor">
 
             </div>
         </div>
     </div>
 
-    <div class="container-fluid py-0" id="aboutDiv">
-        <p class="heading" id="about">
-            About Me
-        </p>
-        <p>
-            Hi, I'm Christopher Phan, and I teach Maths. I've been teaching for the last 25 years.
-            I'm based in North London, but I can easily travel to any part.
-        </p>
+    <div class="container-fluid  px-0 py-0" id="aboutDiv">
 
-        <p>
-            I have extensive experience teaching in some of the UK's top schools and offer unparalleled
-            insight into and each and every stage of a student's development.
-        </p>
-        <p>
+
+        <p id="tutorPara">
             After graduating with a Mathematics degree from Oxford University, I went on to complete my
             Teach First qualification at Berkshire Primary School, specialising in teaching Maths to Years 5 and 6.
             I was selected as part of Teach First's Associate Tutor team, delivering professional development sessions
             to Teach First participants. I am a highly experienced 7+, 11+, 13+, GCSE, A-Level and university entrance
             tutor.
         </p>
-        <p>
+        <p id="tutorIntro">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ipsum lorem, dignissim eget est vel, feugiat
             iaculis magna. Nulla hendrerit congue turpis, sit amet tristique quam consectetur at. Pellentesque sagittis
             molestie dolor, vitae dictum lectus posuere non. Nam cursus commodo euismod. Donec vel semper justo.
             Suspendisse nec velit venenatis, commodo mauris luctus, dignissim nisi. Suspendisse eu mauris dui.
         </p>
-        <p>
+        <p id="tutorIntro">
             Donec et pellentesque erat, at viverra justo. Mauris vel tristique eros, at interdum tortor. Ut at rutrum ante.
             Morbi commodo aliquet nisi vitae ornare. Cras scelerisque tincidunt erat sed tempor. Sed lacus felis, sodales a
             pretium vel, venenatis sit amet nunc. Vivamus id consectetur quam. Nam pulvinar, ipsum ornare lacinia cursus,
