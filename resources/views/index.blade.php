@@ -11,6 +11,8 @@
 </head>
 
 <body>
+
+
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -38,119 +40,116 @@
     </nav>
 
     <div class="container-fluid px-0" id="landingDiv">
-
         <img src="{{ URL('images/maths.jpg')}}" alt="maths image" id="maths">
-
     </div>
 
-    <div class="container-fluid" id="introDiv">
-
-        <div class="row intro">
+    <div class="container-fluid px-0" id="introDiv">
+        <div class="col">
             <p class="heading" id="about">
                 About Me
             </p>
-            <div class="col introPosition px-0 py-0" id="introText">
 
-                <p id="tutorIntro">
+            <p id="tutorIntro">
+                Hi, I'm Christopher Phan, and I teach Maths. I've been teaching for the last 25 years.
+                I'm based in North London, but I can easily travel to any part. I have extensive experience
+                teaching in some of the UK's top schools and offer unparalleled
+                insight into and each and every stage of a student's development.
+            </p>
+        </div>
 
-                    Hi, I'm Christopher Phan, and I teach Maths. I've been teaching for the last 25 years.
-                    I'm based in North London, but I can easily travel to any part. I have extensive experience
-                    teaching in some of the UK's top schools and offer unparalleled
-                    insight into and each and every stage of a student's development.
+
+        <div class="col tutorDiv">
+            <img src="{{ URL('images/tutor.jpg')}}" id="tutorImg" class="img-fluid" alt="tutor">
+        </div>
+
+    </div>
+
+    <!-- <div class="aboutDiv g-col-6 g-col-md-4">
+            <p id="tutorPara">
+                After graduating with a Mathematics degree from Oxford University, I went on to complete my
+                Teach First qualification at Berkshire Primary School, specialising in teaching Maths to Years 5 and 6.
+                I was selected as part of Teach First's Associate Tutor team, delivering professional development sessions
+                to Teach First participants. I am a highly experienced 7+, 11+, 13+, GCSE, A-Level and university entrance
+                tutor.
+            </p>
+            <p id="tutorIntro">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ipsum lorem, dignissim eget est vel, feugiat
+                iaculis magna. Nulla hendrerit congue turpis, sit amet tristique quam consectetur at. Pellentesque sagittis
+                molestie dolor, vitae dictum lectus posuere non. Nam cursus commodo euismod. Donec vel semper justo.
+                Suspendisse nec velit venenatis, commodo mauris luctus, dignissim nisi. Suspendisse eu mauris dui.
+            </p>
+            <p id="tutorIntro">
+                Donec et pellentesque erat, at viverra justo. Mauris vel tristique eros, at interdum tortor. Ut at rutrum ante.
+                Morbi commodo aliquet nisi vitae ornare. Cras scelerisque tincidunt erat sed tempor. Sed lacus felis, sodales a
+                pretium vel, venenatis sit amet nunc. Vivamus id consectetur quam. Nam pulvinar, ipsum ornare lacinia cursus,
+                massa arcu vehicula dui, efficitur egestas risus tortor id tortor. Integer est diam, tempor non fermentum vitae,
+                accumsan sed quam. Aliquam commodo congue urna, a porta risus porttitor sed.
+            </p>
+        </div>
+
+        <div class="testimonialsDiv g-col-6 g-col-md-4">
+            <p class="heading" id="testimonials">
+                Testimonials
+            </p>
+            <p>
+                "We have never known David to actually look forward to working, and have never met someone who can
+                get the best out of him like Christopher does - he has been taught so much but always in a
+                light-hearted, fun way. His approach is brilliant and it has really paid off!"
+                — Claire, David's mother
+            </p>
+            <p>
+                "Christopher is a complete super star! He's the only person Tracy will listen to!
+                The feedback I'm getting from Tracy is that he has massively helped her with her Maths."
+                — Terry, Tracy's father
+            </p>
+            <p>
+                Nunc quis sapien et sem euismod vulputate. Etiam fermentum turpis quis sapien vestibulum scelerisque. Donec laoreet
+                vitae lectus et aliquet. Maecenas odio nulla, varius quis sapien quis, varius congue erat. Etiam porttitor turpis sem,
+                a lobortis leo aliquet in. Phasellus vitae sapien et elit scelerisque dignissim. Nulla facilisi. Sed rhoncus nisi ac
+                magna cursus, vitae blandit justo laoreet. Quisque commodo tristique laoreet. Proin aliquet vestibulum lacus, quis sagittis
+                nisi dictum ut. Suspendisse ac velit augue. Mauris elementum consequat consectetur. Duis interdum neque nec vestibulum varius.
+                Donec consequat id odio vel aliquet.
+            </p>
+            <p>
+                Quisque aliquet est ut malesuada egestas. Etiam ut leo pellentesque, lobortis ante maximus, placerat nulla. Quisque ornare
+                vulputate libero, non vehicula felis mattis nec. Curabitur bibendum sapien sit amet sagittis maximus. Vestibulum ante ipsum
+                primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec a massa ultricies, condimentum nunc ac, fermentum dui.
+                Suspendisse gravida lobortis pulvinar. Quisque a dui suscipit, interdum orci sit amet, tincidunt tellus. Quisque euismod neque
+                ut scelerisque convallis. Quisque et viverra turpis.
+            </p>
+        </div>
+
+        <div class="contactDiv g-col-6 g-col-md-4">
+            <div class="container-fluid py-0" id="contactDiv">
+                <p class="heading" id="contact">
+                    Contact Me
                 </p>
-            </div>
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="name" class="form-control" id="name" />
 
-            <div class=" col introPosition px-0" id="tutorDiv">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" />
+                    </div>
 
-                <img src="{{ URL('images/tutor.jpg')}}" id="tutorImg" class="img-fluid" alt="tutor">
-
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn" id="submitButton">Submit</button>
+                </form>
             </div>
         </div>
-    </div>
 
-    <div class="container-fluid  px-0 py-0" id="aboutDiv">
+        <div class="footerDiv g-col-6 g-col-md-4">
+            <footer>
+                <p id="copyright">mathstutorchris.com © 2022</p>
+            </footer>
+        </div> -->
 
-
-        <p id="tutorPara">
-            After graduating with a Mathematics degree from Oxford University, I went on to complete my
-            Teach First qualification at Berkshire Primary School, specialising in teaching Maths to Years 5 and 6.
-            I was selected as part of Teach First's Associate Tutor team, delivering professional development sessions
-            to Teach First participants. I am a highly experienced 7+, 11+, 13+, GCSE, A-Level and university entrance
-            tutor.
-        </p>
-        <p id="tutorIntro">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ipsum lorem, dignissim eget est vel, feugiat
-            iaculis magna. Nulla hendrerit congue turpis, sit amet tristique quam consectetur at. Pellentesque sagittis
-            molestie dolor, vitae dictum lectus posuere non. Nam cursus commodo euismod. Donec vel semper justo.
-            Suspendisse nec velit venenatis, commodo mauris luctus, dignissim nisi. Suspendisse eu mauris dui.
-        </p>
-        <p id="tutorIntro">
-            Donec et pellentesque erat, at viverra justo. Mauris vel tristique eros, at interdum tortor. Ut at rutrum ante.
-            Morbi commodo aliquet nisi vitae ornare. Cras scelerisque tincidunt erat sed tempor. Sed lacus felis, sodales a
-            pretium vel, venenatis sit amet nunc. Vivamus id consectetur quam. Nam pulvinar, ipsum ornare lacinia cursus,
-            massa arcu vehicula dui, efficitur egestas risus tortor id tortor. Integer est diam, tempor non fermentum vitae,
-            accumsan sed quam. Aliquam commodo congue urna, a porta risus porttitor sed.
-        </p>
-    </div>
-
-    <div class="container-fluid py-0" id="testimonialDiv">
-        <p class="heading" id="testimonials">
-            Testimonials
-        </p>
-        <p>
-            "We have never known David to actually look forward to working, and have never met someone who can
-            get the best out of him like Christopher does - he has been taught so much but always in a
-            light-hearted, fun way. His approach is brilliant and it has really paid off!"
-            — Claire, David's mother
-        </p>
-        <p>
-            "Christopher is a complete super star! He's the only person Tracy will listen to!
-            The feedback I'm getting from Tracy is that he has massively helped her with her Maths."
-            — Terry, Tracy's father
-        </p>
-        <p>
-            Nunc quis sapien et sem euismod vulputate. Etiam fermentum turpis quis sapien vestibulum scelerisque. Donec laoreet
-            vitae lectus et aliquet. Maecenas odio nulla, varius quis sapien quis, varius congue erat. Etiam porttitor turpis sem,
-            a lobortis leo aliquet in. Phasellus vitae sapien et elit scelerisque dignissim. Nulla facilisi. Sed rhoncus nisi ac
-            magna cursus, vitae blandit justo laoreet. Quisque commodo tristique laoreet. Proin aliquet vestibulum lacus, quis sagittis
-            nisi dictum ut. Suspendisse ac velit augue. Mauris elementum consequat consectetur. Duis interdum neque nec vestibulum varius.
-            Donec consequat id odio vel aliquet.
-        </p>
-        <p>
-            Quisque aliquet est ut malesuada egestas. Etiam ut leo pellentesque, lobortis ante maximus, placerat nulla. Quisque ornare
-            vulputate libero, non vehicula felis mattis nec. Curabitur bibendum sapien sit amet sagittis maximus. Vestibulum ante ipsum
-            primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec a massa ultricies, condimentum nunc ac, fermentum dui.
-            Suspendisse gravida lobortis pulvinar. Quisque a dui suscipit, interdum orci sit amet, tincidunt tellus. Quisque euismod neque
-            ut scelerisque convallis. Quisque et viverra turpis.
-        </p>
-    </div>
-    <div class="contianer-fluid py-0" id="contactDiv">
-        <p class="heading" id="contact">
-            Contact Me
-        </p>
-        <form>
-            <div class="mb-3">
-                <label for="name" class="form-label">Name</label>
-                <input type="name" class="form-control" id="name" />
-
-            </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="email" />
-            </div>
-
-            <div class="mb-3">
-                <label for="message" class="form-label">Message</label>
-                <textarea class="form-control" id="message" rows="3"></textarea>
-            </div>
-            <button type="submit" class="btn" id="submitButton">Submit</button>
-        </form>
-    </div>
-    <div class="container-fluid" id="footerDiv">
-        <footer>
-            <p id="copyright">mathstutorchris.com © 2022</p>
-        </footer>
-    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>

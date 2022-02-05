@@ -21,293 +21,431 @@ body {
     width: 40px;
 }
 
-#maths {
+#maths,
+#tutorImg {
     width: 100%;
 }
 
-.introPosition {
-    text-align: center;
-}
+// .introPosition {
+//     text-align: center;
+// }
 
-#introDiv {
-    background-color: #bfe2f0;
-}
+// #introDiv {
+//     background-color: #bfe2f0;
+//     width: 100%;
+// }
 
-.row {
-    flex-direction: column;
-}
+// .row {
+//     flex-direction: column;
+// }
 
-#introText {
-    margin-top: 2%;
-    background-color: #bfe2f0;
-}
+// #introText {
+//     margin-top: 2%;
+//     background-color: #bfe2f0;
+// }
 
-#tutorIntro {
-    padding-left: 10%;
-    padding-right: 10%;
-    font-size: 1em;
-    font-weight: 400;
-    color: #2d6e5b;
-}
+// #tutorIntro {
+//     padding-left: 10%;
+//     padding-right: 10%;
+//     font-size: 1em;
+//     font-weight: 400;
+//     color: #2d6e5b;
+// }
 
-#tutorImg {
-    margin-top: 6%;
-    margin-right: 10%;
-}
+// #tutorImg {
+//     margin-top: 6%;
+//     margin-right: 10%;
+// }
 
-#tutorPara {
-    padding-top: 10%;
-    padding-left: 10%;
-    padding-right: 10%;
-    font-size: 1em;
-    font-weight: 400;
-    color: #2d6e5b;
-}
+// #tutorPara {
+//     padding-top: 10%;
+//     padding-left: 10%;
+//     padding-right: 10%;
+//     font-size: 1em;
+//     font-weight: 400;
+//     color: #2d6e5b;
+// }
 
-#aboutDiv,
-#contactDiv,
-#footerDiv {
-    background-color: #e1eef3;
-}
+// #aboutDiv,
+// #contactDiv,
+// #footerDiv {
+//     background-color: #e1eef3;
+//     width: 100%;
+// }
 
-#testimonialDiv {
-    background-color: #bfe2f0;
-    color: #2d6e5b;
-}
+// #testimonialDiv {
+//     background-color: #bfe2f0;
+//     color: #2d6e5b;
+//     width: 100%;
+// }
 
-#aboutDiv,
-#testimonialDiv,
-#contactDiv {
-    padding-left: 10%;
-    padding-right: 10%;
-}
+// #aboutDiv,
+// #testimonialDiv,
+// #contactDiv {
+//     padding-left: 10%;
+//     padding-right: 10%;
+// }
 
-#testimonialDiv,
-#contactDiv {
-    margin-top: -6%;
-}
+// #testimonialDiv,
+// #contactDiv {
+//     margin-top: -6%;
+// }
 
-#aboutDiv {
-    height: 193vh;
-    color: #2d6e5b;
-}
+// #aboutDiv {
+//     height: 193vh;
+//     color: #2d6e5b;
+// }
 
-#testimonialDiv {
-    height: 248vh;
-}
+// #testimonialDiv {
+//     height: 248vh;
+// }
 
-.heading {
-    padding-top: 10%;
-    font-weight: bold;
-    text-align: center;
-    color: #2d6e5b;
-}
+// .heading {
+//     padding-top: 10%;
+//     font-weight: bold;
+//     text-align: center;
+//     color: #2d6e5b;
+// }
 
-#contactDiv {
-    height: 70vh;
-    color: #2d6e5b !important;
-}
+// #contactDiv {
+//     height: 70vh;
+//     color: #2d6e5b !important;
+// }
 
-#copyright {
-    text-align: center;
-    color: #2d6e5b !important;
-}
+// #copyright {
+//     text-align: center;
+//     color: #2d6e5b !important;
+// }
 
-footer {
-    height: 30vh;
-}
+// footer {
+//     height: 30vh;
+// }
 
-#submitButton {
-    background-color: #398bac !important;
-    color: white !important;
-}
+// #submitButton {
+//     background-color: #398bac !important;
+//     color: white !important;
+// }
 
-// Portrait
+// // Portrait
 
-@media only screen and (min-width: 360px) and (orientation: portrait) {
-    #testimonialDiv {
-        margin-top: -122%;
-    }
-    #contactDiv {
-        margin-top: -168%;
-        height: 70vh;
-    }
-    #footerDiv {
-        height: 40vh;
-    }
-}
+// @media only screen and (min-width: 360px) and (orientation: portrait) {
+//     #testimonialDiv {
+//         margin-top: -122%;
+//     }
+//     #contactDiv {
+//         margin-top: -168%;
+//         height: 70vh;
+//     }
+//     #footerDiv {
+//         height: 40vh;
+//     }
+// }
 
-@media only screen and (min-width: 375px) and (orientation: portrait) {
-    #testimonialDiv {
-        margin-top: -91%;
-    }
-    #contactDiv {
-        margin-top: -125%;
-        height: 70vh;
-    }
-}
+// @media only screen and (min-width: 375px) and (orientation: portrait) {
+//     #testimonialDiv {
+//         margin-top: -91%;
+//     }
+//     #contactDiv {
+//         margin-top: -125%;
+//         height: 70vh;
+//     }
+// }
 
-@media only screen and (min-width: 390px) and (orientation: portrait) {
-    #testimonialDiv {
-        margin-top: -176%;
-    }
-    #contactDiv {
-        margin-top: -232%;
-        height: 60vh;
-    }
-}
+// @media only screen and (min-width: 390px) and (orientation: portrait) {
+//     #testimonialDiv {
+//         margin-top: -176%;
+//     }
+//     #contactDiv {
+//         margin-top: -232%;
+//         height: 60vh;
+//     }
+// }
 
-@media only screen and (min-width: 393px) and (orientation: portrait) {
-    #testimonialDiv {
-        margin-top: -178%;
-    }
-    #contactDiv {
-        margin-top: -241%;
-        height: 60vh;
-    }
-}
+// @media only screen and (min-width: 393px) and (orientation: portrait) {
+//     #testimonialDiv {
+//         margin-top: -178%;
+//     }
+//     #contactDiv {
+//         margin-top: -241%;
+//         height: 60vh;
+//     }
+// }
 
-@media only screen and (min-width: 412px) and (orientation: portrait) {
-    #testimonialDiv {
-        margin-top: -216%;
-        height: 167vh;
-    }
-    #contactDiv {
-        margin-top: -100%;
-        height: 60vh;
-    }
-    #footerDiv {
-        height: 60vh;
-    }
-}
+// @media only screen and (min-width: 412px) and (orientation: portrait) {
+//     #testimonialDiv {
+//         margin-top: -216%;
+//         height: 167vh;
+//     }
+//     #contactDiv {
+//         margin-top: -100%;
+//         height: 60vh;
+//     }
+//     #footerDiv {
+//         height: 60vh;
+//     }
+// }
 
-@media only screen and (min-width: 412px) and (orientation: portrait) {
-    #testimonialDiv {
-        margin-top: -206%;
-    }
-    #contactDiv {
-        margin-top: -91%;
-    }
-    #footerDiv {
-        height: 55vh;
-    }
-}
+// @media only screen and (min-width: 412px) and (orientation: portrait) {
+//     #testimonialDiv {
+//         margin-top: -206%;
+//     }
+//     #contactDiv {
+//         margin-top: -91%;
+//     }
+//     #footerDiv {
+//         height: 55vh;
+//     }
+// }
 
-@media only screen and (min-width: 540px) and (orientation: portrait) {
-    #testimonialDiv {
-        margin-top: -128%;
-    }
-    #contactDiv {
-        margin-top: -58%;
-        height: 70vh;
-    }
-    #footerDiv {
-        height: 45vh;
-    }
-}
+// @media only screen and (min-width: 540px) and (orientation: portrait) {
+//     #testimonialDiv {
+//         margin-top: -128%;
+//     }
+//     #contactDiv {
+//         margin-top: -58%;
+//         height: 70vh;
+//     }
+//     #footerDiv {
+//         height: 45vh;
+//     }
+// }
 
-@media only screen and (min-width: 768px) and (orientation: portrait) {
-    #tutorImg {
-        margin-right: 0%;
-    }
-    #introDiv {
-        padding-bottom: 8%;
-    }
-    #testimonialDiv {
-        margin-top: -182%;
-        height: 167vh;
-    }
-    #contactDiv {
-        margin-top: -127%;
-        height: 60vh;
-    }
-    #footerDiv {
-        height: 60vh;
-    }
-}
+// @media only screen and (min-width: 768px) and (orientation: portrait) {
+//     #tutorImg {
+//         margin-right: 0%;
+//     }
+//     #introDiv {
+//         padding-bottom: 8%;
+//     }
+//     #testimonialDiv {
+//         margin-top: -182%;
+//         height: 167vh;
+//     }
+//     #contactDiv {
+//         margin-top: -127%;
+//         height: 60vh;
+//     }
+//     #footerDiv {
+//         height: 60vh;
+//     }
+// }
 
-@media only screen and (min-width: 820px) and (orientation: portrait) {
-    .navbar {
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-    #testimonialDiv {
-        margin-top: -207%;
-    }
-    #contactDiv {
-        margin-top: -147%;
-        height: 50vh;
-    }
-    #footerDiv {
-        height: 65vh;
-    }
-}
+// @media only screen and (min-width: 820px) and (orientation: portrait) {
+//     .navbar {
+//         padding-left: 5%;
+//         padding-right: 5%;
+//     }
+//     #testimonialDiv {
+//         margin-top: -207%;
+//     }
+//     #contactDiv {
+//         margin-top: -147%;
+//         height: 50vh;
+//     }
+//     #footerDiv {
+//         height: 65vh;
+//     }
+// }
 
-@media only screen and (min-width: 912px) and (orientation: portrait) {
-    #testimonialDiv {
-        margin-top: -225%;
-    }
-    #contactDiv {
-        margin-top: -176%;
-        height: 50vh;
-    }
-    #footerDiv {
-        height: 65vh;
-    }
-}
+// @media only screen and (min-width: 912px) and (orientation: portrait) {
+//     #testimonialDiv {
+//         margin-top: -225%;
+//     }
+//     #contactDiv {
+//         margin-top: -176%;
+//         height: 50vh;
+//     }
+//     #footerDiv {
+//         height: 65vh;
+//     }
+// }
 
-// Landscape
-@media only screen and (min-width: 653px) and (orientation: landscape) {
-    #contactDiv {
-        height: 100vh;
-    }
-    footer {
-        height: 30vh;
-    }
-}
+// // Landscape
+// @media only screen and (min-width: 653px) and (orientation: landscape) {
+//     #aboutDiv {
+//         height: 230vh;
+//     }
+//     #testimonialDiv {
+//         margin-top: -0.5%;
+//         height: 293vh;
+//     }
+//     #contactDiv {
+//         height: 170vh;
+//     }
+// }
 
-@media only screen and (min-width: 667px) and (orientation: landscape) {
-    #contactDiv {
-        height: 90vh;
-    }
-    footer {
-        height: 30vh;
-    }
-}
+// @media only screen and (min-width: 667px) and (orientation: landscape) {
+//     .navbar {
+//         padding-right: 5% !important;
+//     }
+//     #testimonialDiv {
+//         margin-top: -35%;
+//     }
+//     #contactDiv {
+//         margin-top: -50%;
+//         height: 130vh;
+//     }
+// }
 
-@media only screen and (min-width: 720px) and (orientation: landscape) {
-    .row {
-        flex-direction: row;
-    }
-    #tutorIntro {
-        margin-top: 10%;
-    }
-    .navbar {
-        padding-right: 2% !important;
-        padding-left: 2% !important;
-    }
-    #contactDiv {
-        height: 70vh;
-    }
-    footer {
-        height: 20vh;
-    }
-}
+// @media only screen and (min-width: 720px) and (orientation: landscape) {
+//     .navbar {
+//         padding-right: 5% !important;
+//     }
+//     #introDiv {
+//         margin-left: -5%;
+//     }
+//     #aboutDiv {
+//         margin-left: -4%;
+//     }
+//     #tutorImg {
+//         width: 100%;
+//     }
+//     #testimonialDiv {
+//         margin-left: -4%;
+//         margin-top: -88%;
+//         height: 293vh;
+//     }
+//     #contactDiv {
+//         margin-left: -9%;
+//         margin-top: -119%;
+//         height: 130vh;
+//     }
+//     #footerDiv {
+//         margin-left: -4%;
+//     }
+// }
 
-@media only screen and (min-width: 1024px) and (orientation: landscape) {
-    #contactDiv {
-        height: 40vh;
-    }
-    footer {
-        height: 50vh;
-    }
-}
+// @media only screen and (min-width: 740px) and (orientation: landscape) {
+//     .navbar {
+//         padding-right: 5% !important;
+//     }
+//     #introDiv {
+//         margin-left: -4%;
+//     }
+//     #aboutDiv {
+//         margin-left: -2%;
+//     }
+//     #tutorImg {
+//         width: 100%;
+//     }
+//     #testimonialDiv {
+//         margin-left: -2%;
+//         margin-top: -30%;
+//         height: 293vh;
+//     }
+//     #contactDiv {
+//         margin-left: -4%;
+//         margin-top: -45%;
+//         height: 130vh;
+//     }
+//     #footerDiv {
+//         margin-left: -4%;
+//     }
+// }
 
-@media only screen and (min-width: 1180px) and (orientation: landscape) {
-    #contactDiv {
-        height: 30vh;
-    }
-    footer {
-        height: 50vh;
-    }
-}
+// @media only screen and (min-width: 844px) and (orientation: landscape) {
+//     #introDiv {
+//         margin-left: -2%;
+//     }
+//     #aboutDiv {
+//         margin-left: -1%;
+//     }
+//     #testimonialDiv {
+//         margin-left: -1%;
+//     }
+//     #footerDiv {
+//         margin-left: 0%;
+//     }
+// }
+
+// @media only screen and (min-width: 896px) and (orientation: landscape) {
+//     #introDiv {
+//         margin-left: -1%;
+//     }
+//     #aboutDiv {
+//         margin-left: -1%;
+//     }
+//     #testimonialDiv {
+//         margin-left: -1%;
+//         margin-top: -43%;
+//     }
+//     #contactDiv {
+//         margin-left: -2%;
+//         margin-top: -62%;
+//     }
+// }
+
+// @media only screen and (min-width: 915px) and (orientation: landscape) {
+//     #introDiv {
+//         margin-left: 0%;
+//     }
+//     #aboutDiv {
+//         margin-left: 0%;
+//     }
+//     #testimonialDiv {
+//         margin-left: 0%;
+//     }
+//     #contactDiv {
+//         margin-left: 0%;
+//     }
+// }
+
+// @media only screen and (min-width: 1024px) and (orientation: landscape) {
+//     #introDiv {
+//         margin-top: -5%;
+//     }
+
+//     #testimonialDiv {
+//         margin-top: -123%;
+//         height: 87vh;
+//     }
+//     #contactDiv {
+//         margin-top: -5%;
+//     }
+//     #footerDiv {
+//         margin-top: -30%;
+//     }
+// }
+
+// @media only screen and (min-width: 1024px) and (orientation: landscape) {
+//     #introDiv {
+//         margin-top: -5%;
+//     }
+
+//     #testimonialDiv {
+//         margin-top: -85%;
+//         height: 104vh;
+//     }
+//     #contactDiv {
+//         margin-top: -1%;
+//     }
+//     #footerDiv {
+//         margin-top: -20%;
+//     }
+// }
+
+// @media only screen and (min-width: 1180px) and (orientation: landscape) {
+//     #testimonialDiv {
+//         margin-top: -118%;
+//     }
+//     #contactDiv {
+//         margin-top: -21%;
+//         margin-left: -1%;
+//     }
+//     #footerDiv {
+//         margin-top: -40%;
+//     }
+// }
+
+// @media only screen and (min-width: 1280px) and (orientation: landscape) {
+//     #testimonialDiv {
+//         margin-top: -107%;
+//     }
+//     #contactDiv {
+//         margin-top: -18%;
+//         margin-left: -1%;
+//     }
+//     #footerDiv {
+//         margin-top: -35%;
+//     }
+// }
