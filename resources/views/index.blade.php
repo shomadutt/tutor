@@ -46,8 +46,7 @@
 
     <div class="container-fluid px-0" id="introDiv">
         <section id="introSection">
-            <!-- <div class="row"> -->
-            <!-- <div class="col"> -->
+
             <p class="heading" id="about">
                 About Me
             </p>
@@ -62,8 +61,7 @@
                 insight into and each and every stage of a student's development.
 
 
-                <!-- </p>
-            <p id="tutorIntro"> -->
+
                 After graduating with a Mathematics degree from Oxford University, I went on to complete my
                 Teach First qualification at Berkshire Primary School, specialising in teaching Maths to Years 5 and 6.
                 I was selected as part of Teach First's Associate Tutor team, delivering professional development sessions
@@ -71,13 +69,7 @@
                 tutor.
 
             </p>
-            <!-- </div> -->
 
-
-            <!-- <div class="col tutorDiv"> -->
-            <!-- <img src="{{ URL('images/tutor.jpg')}}" id="tutorImg" class="img-fluid" alt="tutor"> -->
-            <!-- </div> -->
-            <!-- </div> -->
         </section>
     </div>
 
