@@ -2,22 +2,6 @@ $fontColour: #2d6e5b !important;
 
 $backgroundColour: #bfe2f0;
 
-.slide {
-    animation-duration: 3s;
-    animation-name: slideup;
-    margin-top: 0%;
-}
-
-@keyframes slideup {
-    from {
-        margin-top: 30%;
-    }
-
-    to {
-        margin-top: 0%;
-    }
-}
-
 body {
     margin: 0;
     padding: 0;
@@ -41,6 +25,57 @@ section {
 
 #maths {
     width: 100%;
+}
+
+#landingDiv {
+    position: relative;
+}
+
+#tutorName {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 70%;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.nameDown {
+    animation-duration: 3s;
+    animation-name: namedown;
+    margin-top: 3%;
+}
+
+@keyframes namedown {
+    from {
+        margin-top: 3%;
+    }
+
+    to {
+        margin-top: 10%;
+    }
+}
+
+#tutorSubject {
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 70%;
+    font-size: 0.8em;
+}
+
+.subjectDown {
+    animation-duration: 3s;
+    animation-name: subjectdown;
+    margin-top: 8%;
+}
+
+@keyframes subjectdown {
+    from {
+        margin-top: 8%;
+    }
+
+    to {
+        margin-top: 15%;
+    }
 }
 
 #tutorImg {
@@ -101,6 +136,10 @@ section {
 // Portrait
 
 @media only screen and (min-width: 375px) and (orientation: portrait) {
+    #tutorName,
+    #tutorSubject {
+        font-size: 1em;
+    }
     #aboutDiv {
         margin-top: -5%;
     }
@@ -122,12 +161,20 @@ section {
 }
 
 @media only screen and (min-width: 540px) and (orientation: portrait) {
+    #tutorName,
+    #tutorSubject {
+        font-size: 1em;
+    }
     #footerDiv {
         height: 45vh;
     }
 }
 
 @media only screen and (min-width: 768px) and (orientation: portrait) {
+    #tutorName,
+    #tutorSubject {
+        font-size: 1.1em;
+    }
     #tutorImg {
         margin-right: 4%;
     }
@@ -146,6 +193,10 @@ section {
 }
 
 @media only screen and (min-width: 912px) and (orientation: portrait) {
+    #tutorName,
+    #tutorSubject {
+        font-size: 1.3em;
+    }
     #footerDiv {
         height: 70vh;
     }
@@ -154,12 +205,20 @@ section {
 // Landscape
 
 @media only screen and (min-width: 653px) and (orientation: landscape) {
+    #tutorName,
+    #tutorSubject {
+        font-size: 1.1em;
+    }
     #aboutDiv {
         margin-top: -5%;
     }
 }
 
 @media only screen and (min-width: 720px) and (orientation: landscape) {
+    #tutorName,
+    #tutorSubject {
+        font-size: 1.2em;
+    }
     #tutorImg {
         margin-right: 1%;
     }
@@ -168,6 +227,13 @@ section {
 @media only screen and (min-width: 740px) and (orientation: landscape) {
     #tutorImg {
         margin-right: 2%;
+    }
+}
+
+@media only screen and (min-width: 851px) and (orientation: landscape) {
+    #tutorName,
+    #tutorSubject {
+        font-size: 1.3em;
     }
 }
 

@@ -17,7 +17,7 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="{{ URL('images/logo.png')}}" id="logo" class="img-fluid" alt="logo">
-                Christopher Phan
+                Chris Phan
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -41,6 +41,10 @@
 
 
     <div class="container-fluid px-0" id="landingDiv">
+        <p class="nameDown" id="tutorName">Chris Phan</p>
+
+        <p class="subjectDown" id="tutorSubject">Maths Tutor</p>
+
         <img src="{{ URL('images/maths.jpg')}}" alt="maths image" id="maths">
     </div>
 
