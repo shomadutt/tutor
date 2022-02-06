@@ -45,33 +45,39 @@
     </div>
 
     <div class="container-fluid px-0" id="introDiv">
-        <section>
-            <div class="row">
-                <div class="col">
-                    <p class="heading" id="about">
-                        About Me
-                    </p>
+        <section id="introSection">
+            <!-- <div class="row"> -->
+            <!-- <div class="col"> -->
+            <p class="heading" id="about">
+                About Me
+            </p>
 
-                    <p id="tutorIntro">
-                        Hi, I'm Christopher Phan, and I teach Maths. I've been teaching for the last 25 years.
-                        I'm based in North London, but I can easily travel to any part. I have extensive experience
-                        teaching in some of the UK's top schools and offer unparalleled
-                        insight into and each and every stage of a student's development.
-                    </p>
-                    <p id="tutorIntro">
-                        After graduating with a Mathematics degree from Oxford University, I went on to complete my
-                        Teach First qualification at Berkshire Primary School, specialising in teaching Maths to Years 5 and 6.
-                        I was selected as part of Teach First's Associate Tutor team, delivering professional development sessions
-                        to Teach First participants. I am a highly experienced 7+, 11+, 13+, GCSE, A-Level and university entrance
-                        tutor.
-                    </p>
-                </div>
+            <p id="tutorIntro">
+
+                <img src="{{ URL('images/tutor.jpg')}}" id="tutorImg" class="img-fluid" alt="tutor">
+
+                Hi, I'm Christopher Phan, and I teach Maths. I've been teaching for the last 25 years.
+                I'm based in North London, but I can easily travel to any part. I have extensive experience
+                teaching in some of the UK's top schools and offer unparalleled
+                insight into and each and every stage of a student's development.
 
 
-                <div class="col tutorDiv">
-                    <img src="{{ URL('images/tutor.jpg')}}" id="tutorImg" class="img-fluid" alt="tutor">
-                </div>
-            </div>
+                <!-- </p>
+            <p id="tutorIntro"> -->
+                After graduating with a Mathematics degree from Oxford University, I went on to complete my
+                Teach First qualification at Berkshire Primary School, specialising in teaching Maths to Years 5 and 6.
+                I was selected as part of Teach First's Associate Tutor team, delivering professional development sessions
+                to Teach First participants. I am a highly experienced 7+, 11+, 13+, GCSE, A-Level and university entrance
+                tutor.
+
+            </p>
+            <!-- </div> -->
+
+
+            <!-- <div class="col tutorDiv"> -->
+            <!-- <img src="{{ URL('images/tutor.jpg')}}" id="tutorImg" class="img-fluid" alt="tutor"> -->
+            <!-- </div> -->
+            <!-- </div> -->
         </section>
     </div>
 

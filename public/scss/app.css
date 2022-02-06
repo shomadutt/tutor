@@ -1,3 +1,29 @@
+.slide {
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: slideup;
+          animation-name: slideup;
+  margin-top: 0%;
+}
+
+@-webkit-keyframes slideup {
+  from {
+    margin-top: 30%;
+  }
+  to {
+    margin-top: 0%;
+  }
+}
+
+@keyframes slideup {
+  from {
+    margin-top: 30%;
+  }
+  to {
+    margin-top: 0%;
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -19,9 +45,14 @@ section {
   padding: 5%;
 }
 
-#maths,
-#tutorImg {
+#maths {
   width: 100%;
+}
+
+#tutorImg {
+  float: right;
+  padding-left: 2%;
+  padding-bottom: 2%;
 }
 
 #introDiv,
@@ -39,13 +70,13 @@ section {
 #tutorIntro {
   font-size: 1em;
   font-weight: 400;
-  color: #2d6e5b;
+  color: #2d6e5b !important;
 }
 
 .heading {
   font-weight: bold;
   text-align: center;
-  color: #2d6e5b;
+  color: #2d6e5b !important;
 }
 
 #aboutTutor {
@@ -59,7 +90,7 @@ section {
 
 #testimonialsDiv {
   background-color: #e1eef3;
-  color: #2d6e5b;
+  color: #2d6e5b !important;
 }
 
 #copyright {
@@ -74,6 +105,15 @@ section {
 #submitButton {
   background-color: #398bac !important;
   color: white !important;
+}
+
+@media only screen and (min-width: 375px) and (orientation: portrait) {
+  #aboutDiv {
+    margin-top: -5%;
+  }
+  #aboutTutor {
+    padding-top: 0%;
+  }
 }
 
 @media only screen and (min-width: 390px) and (orientation: portrait) {
@@ -95,11 +135,8 @@ section {
 }
 
 @media only screen and (min-width: 768px) and (orientation: portrait) {
-  .row {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+  #tutorImg {
+    margin-right: 4%;
   }
   #footerDiv {
     height: 60vh;
@@ -107,11 +144,8 @@ section {
 }
 
 @media only screen and (min-width: 820px) and (orientation: portrait) {
-  .row {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+  #tutorImg {
+    margin-right: -5%;
   }
   #footerDiv {
     height: 65vh;
@@ -119,23 +153,26 @@ section {
 }
 
 @media only screen and (min-width: 912px) and (orientation: portrait) {
-  .row {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
   #footerDiv {
     height: 70vh;
   }
 }
 
+@media only screen and (min-width: 653px) and (orientation: landscape) {
+  #aboutDiv {
+    margin-top: -5%;
+  }
+}
+
 @media only screen and (min-width: 720px) and (orientation: landscape) {
-  .row {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+  #tutorImg {
+    margin-right: 1%;
+  }
+}
+
+@media only screen and (min-width: 740px) and (orientation: landscape) {
+  #tutorImg {
+    margin-right: 2%;
   }
 }
 

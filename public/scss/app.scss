@@ -1,7 +1,21 @@
-@mixin centre() {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+$fontColour: #2d6e5b !important;
+
+$backgroundColour: #bfe2f0;
+
+.slide {
+    animation-duration: 3s;
+    animation-name: slideup;
+    margin-top: 0%;
+}
+
+@keyframes slideup {
+    from {
+        margin-top: 30%;
+    }
+
+    to {
+        margin-top: 0%;
+    }
 }
 
 body {
@@ -10,11 +24,11 @@ body {
 }
 
 .navbar {
-    background-color: #bfe2f0;
+    background-color: $backgroundColour;
 }
 
 .navbar-brand {
-    color: #2d6e5b !important;
+    color: $fontColour;
 }
 
 #logo {
@@ -25,14 +39,19 @@ section {
     padding: 5%;
 }
 
-#maths,
-#tutorImg {
+#maths {
     width: 100%;
+}
+
+#tutorImg {
+    float: right;
+    padding-left: 2%;
+    padding-bottom: 2%;
 }
 
 #introDiv,
 #aboutDiv {
-    background-color: #bfe2f0;
+    background-color: $backgroundColour;
 }
 
 .row {
@@ -42,13 +61,13 @@ section {
 #tutorIntro {
     font-size: 1em;
     font-weight: 400;
-    color: #2d6e5b;
+    color: $fontColour;
 }
 
 .heading {
     font-weight: bold;
     text-align: center;
-    color: #2d6e5b;
+    color: $fontColour;
 }
 
 #aboutTutor {
@@ -57,17 +76,17 @@ section {
 
 #contactDiv,
 #footerDiv {
-    background-color: #bfe2f0;
+    background-color: $backgroundColour;
 }
 
 #testimonialsDiv {
     background-color: #e1eef3;
-    color: #2d6e5b;
+    color: $fontColour;
 }
 
 #copyright {
     text-align: center;
-    color: #2d6e5b !important;
+    color: $fontColour;
 }
 
 #footerDiv {
@@ -80,6 +99,15 @@ section {
 }
 
 // Portrait
+
+@media only screen and (min-width: 375px) and (orientation: portrait) {
+    #aboutDiv {
+        margin-top: -5%;
+    }
+    #aboutTutor {
+        padding-top: 0%;
+    }
+}
 
 @media only screen and (min-width: 390px) and (orientation: portrait) {
     #footerDiv {
@@ -100,8 +128,8 @@ section {
 }
 
 @media only screen and (min-width: 768px) and (orientation: portrait) {
-    .row {
-        flex-direction: row;
+    #tutorImg {
+        margin-right: 4%;
     }
     #footerDiv {
         height: 60vh;
@@ -109,8 +137,8 @@ section {
 }
 
 @media only screen and (min-width: 820px) and (orientation: portrait) {
-    .row {
-        flex-direction: row;
+    #tutorImg {
+        margin-right: -5%;
     }
     #footerDiv {
         height: 65vh;
@@ -118,9 +146,6 @@ section {
 }
 
 @media only screen and (min-width: 912px) and (orientation: portrait) {
-    .row {
-        flex-direction: row;
-    }
     #footerDiv {
         height: 70vh;
     }
@@ -128,9 +153,21 @@ section {
 
 // Landscape
 
+@media only screen and (min-width: 653px) and (orientation: landscape) {
+    #aboutDiv {
+        margin-top: -5%;
+    }
+}
+
 @media only screen and (min-width: 720px) and (orientation: landscape) {
-    .row {
-        flex-direction: row;
+    #tutorImg {
+        margin-right: 1%;
+    }
+}
+
+@media only screen and (min-width: 740px) and (orientation: landscape) {
+    #tutorImg {
+        margin-right: 2%;
     }
 }
 
