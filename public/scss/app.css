@@ -15,8 +15,133 @@ body {
   width: 40px;
 }
 
+section {
+  padding: 5%;
+}
+
 #maths,
 #tutorImg {
   width: 100%;
+}
+
+#introDiv,
+#aboutDiv {
+  background-color: #bfe2f0;
+}
+
+.row {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#tutorIntro {
+  font-size: 1em;
+  font-weight: 400;
+  color: #2d6e5b;
+}
+
+.heading {
+  font-weight: bold;
+  text-align: center;
+  color: #2d6e5b;
+}
+
+#aboutTutor {
+  padding-top: 0%;
+}
+
+#contactDiv,
+#footerDiv {
+  background-color: #bfe2f0;
+}
+
+#testimonialsDiv {
+  background-color: #e1eef3;
+  color: #2d6e5b;
+}
+
+#copyright {
+  text-align: center;
+  color: #2d6e5b !important;
+}
+
+#footerDiv {
+  height: 40vh;
+}
+
+#submitButton {
+  background-color: #398bac !important;
+  color: white !important;
+}
+
+@media only screen and (min-width: 390px) and (orientation: portrait) {
+  #footerDiv {
+    height: 50vh;
+  }
+}
+
+@media only screen and (min-width: 412px) and (orientation: portrait) {
+  #footerDiv {
+    height: 55vh;
+  }
+}
+
+@media only screen and (min-width: 540px) and (orientation: portrait) {
+  #footerDiv {
+    height: 45vh;
+  }
+}
+
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+  .row {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #footerDiv {
+    height: 60vh;
+  }
+}
+
+@media only screen and (min-width: 820px) and (orientation: portrait) {
+  .row {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #footerDiv {
+    height: 65vh;
+  }
+}
+
+@media only screen and (min-width: 912px) and (orientation: portrait) {
+  .row {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #footerDiv {
+    height: 70vh;
+  }
+}
+
+@media only screen and (min-width: 720px) and (orientation: landscape) {
+  .row {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (orientation: landscape) {
+  #footerDiv {
+    height: 60vh;
+  }
 }
 /*# sourceMappingURL=app.css.map */
