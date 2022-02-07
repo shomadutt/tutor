@@ -105,13 +105,6 @@ section {
   background-color: #bfe2f0;
 }
 
-.row {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
 #tutorIntro {
   font-size: 1em;
   font-weight: 400;
@@ -188,9 +181,13 @@ section {
 }
 
 @media only screen and (min-width: 768px) and (orientation: portrait) {
+  .heading {
+    font-size: 1.2em;
+    margin-bottom: 5%;
+  }
   #tutorName,
   #tutorSubject {
-    font-size: 1.1em;
+    font-size: 1.3em;
   }
   #tutorImg {
     margin-right: 4%;
@@ -201,6 +198,10 @@ section {
 }
 
 @media only screen and (min-width: 820px) and (orientation: portrait) {
+  #tutorName,
+  #tutorSubject {
+    font-size: 1.4em;
+  }
   #tutorImg {
     margin-right: -5%;
   }
@@ -212,7 +213,7 @@ section {
 @media only screen and (min-width: 912px) and (orientation: portrait) {
   #tutorName,
   #tutorSubject {
-    font-size: 1.3em;
+    font-size: 1.4em;
   }
   #footerDiv {
     height: 70vh;
@@ -232,7 +233,7 @@ section {
 @media only screen and (min-width: 720px) and (orientation: landscape) {
   #tutorName,
   #tutorSubject {
-    font-size: 1.2em;
+    font-size: 1.3em;
   }
   #tutorImg {
     margin-right: 1%;
@@ -245,16 +246,41 @@ section {
   }
 }
 
+@media only screen and (min-width: 844px) and (orientation: landscape) {
+  .heading {
+    font-size: 1.2em;
+    margin-bottom: 5%;
+  }
+}
+
 @media only screen and (min-width: 851px) and (orientation: landscape) {
   #tutorName,
   #tutorSubject {
-    font-size: 1.3em;
+    font-size: 1.4em;
   }
 }
 
 @media only screen and (min-width: 1024px) and (orientation: landscape) {
+  #tutorName,
+  #tutorSubject {
+    font-size: 1.4em;
+  }
   #footerDiv {
     height: 60vh;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (orientation: landscape) {
+  #tutorName,
+  #tutorSubject {
+    font-size: 1.7em;
+  }
+}
+
+@media only screen and (min-width: 1368px) and (orientation: landscape) {
+  #tutorName,
+  #tutorSubject {
+    font-size: 1.7em;
   }
 }
 /*# sourceMappingURL=app.css.map */
